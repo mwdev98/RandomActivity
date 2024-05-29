@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+
+body{
+    background-image: linear-gradient(to right, #8cb6f5, #83a3ff, #9389ff, #b464ff, #da12eb);
+}
+
+h3{
+    color: rgb(247, 241, 234);
+    text-shadow:2px 2px 5px rgb(250, 204, 204);
+    font-family: 'Shadows Into Light', cursive;
+}
+p{
+    color: rgb(245, 245, 245);
+    text-shadow:2px 2px 5px rgb(19, 210, 185);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+#activity-container{
+    padding-top: 100px;
+    color: rgb(181, 225, 245);
+    text-shadow:2px 2px 5px rgb(235, 31, 31);
+    font-family: 'Handlee', cursive;
+    
+    
+}
+
+#button{
+    border:solid 2px blueviolet;
+    border-radius: 12px;
+    font-size: 19px;
+    padding: 12px 16px;
+    margin: 4px 2px;
+    background-color: rgb(229, 243, 213);
+    color: rgb(93, 49, 64);
+    transition-duration: 0.9s;
+    cursor: pointer;
+    font-family: 'Macondo', cursive;
+    
+    
+}
+
+#button:hover{
+    background-color: rgb(130, 0, 26);
+    color: aliceblue;
+}
